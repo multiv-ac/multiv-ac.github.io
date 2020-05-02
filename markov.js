@@ -18,7 +18,8 @@ let button;
 function setup() {
   
   createCanvas(400,400);
-  background(255);
+  background(192, 192, 196);
+  
   textSize(14);
   
   //text(txt,10,20,width-20,height);
@@ -53,7 +54,7 @@ function markovIt() {
     currentGram = result.substring(len - order, len);
   }
 
-  background(255);
+  background(192, 192, 196);
   text(result,10,20,width-20,height);
   
 }
