@@ -1,46 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-
 body {
-	/* Definir tipografía */
-	
-	font-weight: normal;
-	font-size: 100%;
-	line-height: 1.5;
-	font-family:'Ubuntu', sans-serif;
 	background: rgba(192, 192, 196);
-	color: #000000;
 }
-
-article {
-	/* Hacer una columna de 680 */
-	max-width: 680px;
-	padding-left: 30px;
-	padding-right: 30px;
-	border: 10px solid blue;
-	text-align: left;
-	margin-left: auto;
-	margin-right: auto;
-	position:relative;
-
-}
-
-article h1 {
-	font-size: 48px;
-	margin-top: 48px;
-	margin-bottom:48px;
-}
-
-article p {
-	font-size: 20px;
-	margin-bottom: 30px;
-}
-
-.pared {
-	background: rgba(180, 255, 80); 
-	font-size: 25px;
-	position:relative;
-	top: 60px;
-	left: 120px;
-}
-

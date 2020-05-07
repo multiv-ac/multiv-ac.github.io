@@ -1,6 +1,17 @@
 body{
     background-color: black;
 }
+p{
+    color:white;
+    font-family: monospace;
+    font-size: larger;
+    font-stretch: expanded;
+}
+
+.parrafo{
+    position: absolute;
+    top: 10%;
+}
 
 #pantalla{
     position: absolute;
