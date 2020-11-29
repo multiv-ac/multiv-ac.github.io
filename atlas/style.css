@@ -27,8 +27,8 @@ body{
 
 .container{
     position: relative;
-    margin: 15px;
-    margin-top: 30px;
+    margin: 10px;
+    /* margin-top: 30px; */
     background-color: #899692;
 }
 
@@ -40,13 +40,14 @@ body{
 ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 16.5em;
     padding-left: 20%;
-    padding-top: 2%;
-    padding-bottom: 3%;
+    /* padding-top: 2%; */
+    /* padding-bottom: 3%; */
 }
 
 .citys{
-    position: absolute;
+    position: relative;
     width: 10px;
     height: 10px;
     border: 2px solid #433732;
@@ -81,4 +82,29 @@ iframe{
 
 .title{
     display: block;
+}
+
+.nombres{
+    font-family: 'Fondamento', cursive;
+    text-align: center;
+    position: relative;
+}
+#labo4{
+    bottom: 47%;
+    right: 25%;
+}
+
+#estructuras{
+    bottom: 53%;
+    right: 26%;
+}
+
+#taller{
+    bottom: 36%;
+    right: 25%;
+}
+
+#labo5{
+    bottom: 37%;
+    right: 25%;
 }
