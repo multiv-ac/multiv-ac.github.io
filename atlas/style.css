@@ -47,7 +47,7 @@ ul {
 }
 
 .citys{
-    position: relative;
+    position: absolute;
     width: 10px;
     height: 10px;
     border: 2px solid #433732;
@@ -87,24 +87,24 @@ iframe{
 .nombres{
     font-family: 'Fondamento', cursive;
     text-align: center;
-    position: relative;
+    position: absolute;
 }
 #labo4{
-    bottom: 47%;
-    right: 25%;
+    bottom: 76%;
+    right: 63%;
 }
 
 #estructuras{
-    bottom: 53%;
-    right: 26%;
+    bottom: 69%;
+    right: 24%;
 }
 
 #taller{
-    bottom: 36%;
-    right: 25%;
+    bottom: 14%;
+    right: 63%;
 }
 
 #labo5{
-    bottom: 37%;
-    right: 25%;
+    bottom: 20%;
+    right: 23%;
 }
