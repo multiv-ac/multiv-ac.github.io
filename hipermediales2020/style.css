@@ -1,0 +1,53 @@
+body{
+    background: rgb(5,55,0,1);
+}
+
+h1{
+    text-align: center;
+    font-size: 2em;
+    color: aliceblue;
+}
+
+.contenedor{
+    position: absolute;
+}
+
+.marco{
+    position: relative;
+    top: -4.5em;
+    right: 0;
+}
+
+.animacion{
+    position: absolute;
+    width: 15%;
+    height: auto;
+}
+
+#planta{
+    bottom: -3em;
+    right: -5em;
+}
+
+#hoja{
+    right: 0.8em;
+    bottom: 14.3em;
+    width: 5%;
+    height: auto;
+    animation: wind 10s ease-in-out infinite;
+}
+
+@keyframes wind {
+    0%{
+        transform: rotate(0deg);
+        transform-origin: 100% 100%;
+    }
+    50%{
+        transform: rotate(10deg);
+        transform-origin: 100% 100%;
+    }
+    100%{
+        transform: rotate(0deg);
+        transform-origin: 100% 100%;
+    }
+}
